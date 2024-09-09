@@ -44,18 +44,44 @@ h1{
 ul{margin: 0px;}
 
 #main-header{
+    /* width: vmax; */
     background-color: aquamarine;
-    /* display: flex; */
-    height: 25vh;
+    height: 230px;
     align-items: center;
     justify-content: space-evenly;
 }
 
-body>main article{
-    width:70% ;
-    /* border-left: 1px solid aquamarine; */
-    /* margin: auto;     */
+#subtitle{
+    font-family: "Tangerine";
 }
+
+#fact{text-align: left;}
+
+#topboard{
+    display: grid;
+    grid-template-areas:
+    /* "quote quote quote"  */
+    "item item1 item2";
+    
+}
+
+#bottom-board{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* #quote-container{
+    grid-area: quote;
+} */
+
+#item{grid-area: item;}
+#item1{grid-area: item1;
+    text-align: center;
+}
+#item2{grid-area: item2;}
+#item3{grid-area: item3;}
+
 
 #main-content{
     display: flex;
@@ -75,6 +101,13 @@ body>main article{
     border: 1px solid rgba(153,180,213, 0.2);
 }
 
+footer > h2{
+    padding-left: 15px;
+}
+
+#bear{
+    border-radius: 50%;
+}
 /* #main-content aside{
     width: ;
 } */
@@ -95,6 +128,7 @@ body > footer{
 #footer-ul{
     display: flex;
     list-style: none;
+    padding-bottom: 10px;
 }
 
 #footer-ul>div>li{
@@ -104,8 +138,4 @@ body > footer{
 
 #footer-ul>div>li>a{
     text-decoration: none;
-}
-
-img{    
-    border-radius: 100%;
 }

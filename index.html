@@ -5,55 +5,44 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshav's world</title>
+    <title>The world</title>
 </head>
 <body>
     <header id="main-header"> 
         <!-- header content here, navigation, title etc -->
-         <h1>Keshav's world</h1>
+         <h1>The world</h1>
          <nav id="navbutton">
             <ul id="nav-ul">
                 <li>
-                    <a href="https://bbc.co.uk"class="navbutton">Home</a>
+                    <a href="https://kxvtr1.github.io"class="navbutton">Home</a>
                 </li>
                 <li>
-                    <a href="https://youtube.com"class="navbutton">About Me</a>
+                    <a href=""class="navbutton"target="_blank">About</a>
                 </li>
                 <li>
-                    <a href="https://bbc.co.uk"class="navbutton">Contact</a>
+                    <a href="https://linkedin.com/in/tuli-keshav"class="navbutton"target="_blank">Contact</a>
                 </li>
                 <!--ALTERNATIVELY USE:  nav>ul>li*3>a -->
             </ul>
          </nav>
-         
+        <h2 id="subtitle">An online community message board</h2> 
     </header>
     <main>
         <!-- main content here  -->
          <div id="main-content">
-            <aside>
-                <section>
-                    <header>
-                        <h4>Filter by Month
-                            <nav>
-                                <ul>
-                                    <li><a href="">Filter for January</a></li>
-                                    <li><a href="">Filter for February</a></li>
-                                    <li><a href="">Filter for March</a></li>    
-                                </ul>
-                            </nav>
-                         </h4>
-                    </header>
-                </section>
+            <aside>                
                 <section>
                     <header>
                         <h4>Filter by Category
                             <nav>
                                 <ul>
-                                    <li><a href="">Science</a></li>
-                                    <li><a href="">Technology</a></li>
-                                    <li><a href="">Engineering</a></li>
+                                    <li><a href="">Quotes</a></li>
+                                    <li><a href="">Images</a></li>
+                                    <li><a href="">Facts</a></li>
                                 </ul>
                             </nav>
                         </h4>
@@ -64,61 +53,50 @@
                 <article> <!--this is the website's focus content (eg item listing), not necessarily a written article-->
                     <header>
                         <!--Article Header here-->
-                        <h2>Article Title 1</h2>
-                        <h3>Read time: 5 minutes</h3>
+                        <h2 id="fact">Random fact:</h2>                       
+                        
                     </header>
                     <main>
-                        <!--main belonging to the article not overall page-->
-                        <p>Article body</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam quos veritatis recusandae explicabo, sunt deserunt dolorem atque sequi dignissimos quasi doloremque eligendi soluta pariatur facilis dolor quis alias vitae quae numquam blanditiis assumenda illo ab? Sequi laborum ad cum animi asperiores reprehenderit aut, atque officiis delectus molestias earum expedita in veritatis eveniet quasi omnis recusandae natus commodi perspiciatis dolorem repellendus facilis sed. Excepturi officia repudiandae quia assumenda, quis nobis fuga, dolorum dolore, corrupti eligendi quam molestiae laboriosam sunt accusamus.</p> 
-                        <!-- lorem(num) gives a filler paragraph of (num) words-->
-                         <blockquote>
-                            "Inspiring quote here" - <cite>Keshav, 2024</cite>
-                         </blockquote>       
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde maiores quibusdam deleniti nisi iste nostrum maxime voluptates vel expedita error vitae voluptas veniam eius, laudantium dolore voluptatum culpa modi velit sequi. Cum temporibus laboriosam perferendis? Reprehenderit accusamus aut aperiam in cumque nulla error architecto consequuntur, odio delectus, rem magnam?</p>
+                        <section>   
+                            <div id="quote-container">
+                            </div>
+                            <script src="app.js"></script>
+                            <hr>                            
+                        </section>
+                        <section id="topboard">
+                            <img src="https://placebear.com/150/150" alt="Profile picture of a bear" id="item">
+                            <!-- <p id="item1">Just one small positive thought in the morning can change your whole day. - Dalai Lama                                
+                            </p> -->
+                            <blockquote id="item1">
+                                "Just one small positive thought in the morning can change your whole day." <cite>Dalai Lama</cite>  <br><br>
+                                "Man's proper stature is not one of mediocrity, failure, frustration, or defeat, but one of achievement, strength, and nobility. In short, man can and ought to be a hero."<cite><br>Mike Mentzer</cite>                           
+                            </blockquote>
+                            <img src="https://placebear.com/150/150" alt="Profile picture of a bear" id="item2">
+                            
+                        </section>             
+                        <section id="bottom-board">
+                            <img src="https://apod.nasa.gov/apod/image/2409/SaturnMoon_Sojuel_960.jpg" alt="NASA apod Moon Dressed as Saturn" width="310" height="455.33" id="item3">
+
+                            <img src="https://cdn.esahubble.org/archives/images/screen/heic0601a.jpg" alt="Hubble's view of Orion" width="453.33" height="453.33" id="item4">
+
+
+                        </section>           
                     </main>
                     <footer>
                         <!--footer content here-->
                         <h3>Author: Keshav Tuli</h3>
-                        <img src="https://placebear.com/150/150" alt="Profile picture of a bear">
-                        <h3>Last Posted: Aug 2024</h3>
+                        <img src="https://placebear.com/150/150" alt="Profile picture of a bear" id="bear">
+                        <h3>Last Posted: Sep 2024</h3>
                         <a href="https://www.linkedin.com/in/tuli-keshav"target="_blank">Author's Profile</a>
                         <!--the target phrase allows the link to open in a new tab-->
                     </footer>
-                </article>
-                <article> <!--this is the website's focus content (eg item listing), not necessarily a written article-->
-                    <header>
-                        <!--Article Header here-->
-                        <h2>Article Title 2</h2>
-                        <h3>Read time: 5 minutes</h3>
-                    </header>
-                    <main>
-                        <!--main belonging to the article not overall page-->
-                        <p>Article body</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium quam quos veritatis recusandae explicabo, sunt deserunt dolorem atque sequi dignissimos quasi doloremque eligendi soluta pariatur facilis dolor quis alias vitae quae numquam blanditiis assumenda illo ab? Sequi laborum ad cum animi asperiores reprehenderit aut, atque officiis delectus molestias earum expedita in veritatis eveniet quasi omnis recusandae natus commodi perspiciatis dolorem repellendus facilis sed. Excepturi officia repudiandae quia assumenda, quis nobis fuga, dolorum dolore, corrupti eligendi quam molestiae laboriosam sunt accusamus.</p> 
-                        <!-- lorem(num) gives a filler paragraph of (num) words-->
-                         <blockquote>
-                            "Inspiring quote here" - <cite>Keshav, 2024</cite>
-                         </blockquote>       
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde maiores quibusdam deleniti nisi iste nostrum maxime voluptates vel expedita error vitae voluptas veniam eius, laudantium dolore voluptatum culpa modi velit sequi. Cum temporibus laboriosam perferendis? Reprehenderit accusamus aut aperiam in cumque nulla error architecto consequuntur, odio delectus, rem magnam?</p>
-                    </main>
-                    <footer>
-                        <!--footer content here-->
-                        <h4>Tags: alpha, beta, gamma</h4>
-                        <h3>Author: Keshav Tuli</h3>
-                        <img src="https://placebear.com/150/150" alt="Profile picture of a bear">
-                        <h3>Last Posted: Aug 2024</h3>
-                        <a href="https://www.linkedin.com/in/tuli-keshav"target="_blank">Author's Profile</a>
-                        <!--the target phrase allows the link to open in a new tab-->
-                    </footer>
-                </article>
-             </div>
-            
+                </article>                
+             </div>          
             
          </div>
          
         <hr>
-        <h2>Newsletter Signup: </h2>
+        <h2>Make a submission: </h2>
         <form action="" method="">
             <label for="first_name">First Name: </label>
             <input type="text" id="first_name" name="first_name" required>
@@ -131,30 +109,33 @@
             <br><br>
             <label for="password">Password: </label>
             <input type="password" name="password" id="password">
-            <br><br>
-            <label for="animal">Favourite Animal: </label>
-            <input type="radio" name="animal" id="Dog" value="Dog">
-            <label for="Dog">Dog</label>
-            <input type="radio" name="animal" id="Cat" value="Cat">
-            <label for="Cat">Cat</label>
-            <input type="radio" name="animal" id="Hedgehog" value="Hedgehog">
-            <label for="Hedgehog">Hedgehog</label>
-            <br><br>
-            <label for="country">Country: </label>
-            <select name="country" id="country">
-                <option value="England">England</option>
-                <option value="Scotland">Scotland</option>
-                <option value="Wales">Wales</option>
-                <option value="Northern_ireland">Northern Ireland</option>
+            <br><br>            
+            <label for="submission">Submission Type: </label>
+            <select name="submission" id="submission">
+                <option value="Astronomy_Image">Astronomy Image</option>
+                <option value="Animal_Image">Animal Image</option>
+                <option value="Quote">Quote</option>
+                <option value="Fact">Fact</option>
             </select>
-            <br>
-            <label for="bio">Biography</label>
+            <br><br>
+            <label for="bio">Details</label>
             <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
             <br><br>
             <input type="checkbox" id="subscribe" name="subscribe">
             <label for="subscribe">Subscribe to the newsletter</label> 
-            <br>
-            <input type="submit" value="Send!">           
+            <br><br>
+            <label for="media">Interests: </label>
+            <input type="checkbox" name="media" id="astro" value="Astronomy Image">
+            <label for="astro">Astronomy Images</label>
+            <input type="checkbox" name="media" id="dog" value="Animal Images">
+            <label for="dog">Animal Images</label>
+            <input type="checkbox" name="media" id="quote" value="Quotes">
+            <label for="quote">Quotes</label>            
+            <input type="checkbox" name="media" id="Facts" value="Facts">
+            <label for="Facts">Facts</label>            
+            <br><br>
+            <input type="submit" value="Submit">    
+                  
         </form>
         <hr>
     </main>
@@ -165,8 +146,8 @@
             <nav>
                 <ul id="footer-ul">
                     <div>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a></li>
+                        <li><a href="https://kxvtr1.github.io"target="_blank">Home</a></li>
+                        <li><a href="https://linkedin.com/in/tuli-keshav"target="_blank">About Us</a></li>
                         <li><a href="">Careers</a></li>
                     </div>
                     <div>

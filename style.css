@@ -140,4 +140,10 @@ body > footer{
     text-decoration: none;
 }
 
-figcaption{text-align: center;}
+figcaption{text-align: center;
+font-family: 'Times New Roman', Times, serif ;}
+cite{font-family: 'Times New Roman', Times, serif;
+font-size: smaller;}
+
+blockquote{font-style: italic;
+font-family:'Times New Roman', Times, serif;}

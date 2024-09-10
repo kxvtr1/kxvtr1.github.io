@@ -46,7 +46,7 @@ ul{margin: 0px;}
 #main-header{
     /* width: vmax; */
     background-color: aquamarine;
-    height: 230px;
+    height: 25%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -148,3 +148,8 @@ font-size: smaller;}
 
 blockquote{font-style: italic;
 font-family:'Times New Roman', Times, serif;}
+
+img{
+    width:100%;
+    height:auto    
+}
